@@ -1,3 +1,28 @@
 {
-    "id": "kedn2HgDR"
+    "id": "kedn2HgDR",
+    "name": "cupcut",
+    "product": "livechat",
+    "blocks": {
+        "authorization": {
+            "clientId": "fed1490340c2a98176eda23fa83c36e3",
+            "type": "javascript_app",
+            "redirectUri": "https://davidrobert0301234-coder.github.io/thecupcutapp/"
+        },
+        "repository": {
+            "provider": "github",
+            "name": "davidrobert0301234-coder/thecupcutapp",
+            "branch": "main"
+        },
+        "deployment": {
+            "provider": "custom",
+            "url": "https://davidrobert0301234-coder.github.io/thecupcutapp/"
+        },
+        "widgets": {
+            "qzyGJfMmIT": {
+                "url": "https://feeds.soundcloud.com/users/soundcloud:users:1610064359/sounds.rss",
+                "placement": "fullscreen",
+                "initialState": ""
+            }
+        }
+    }
 }
